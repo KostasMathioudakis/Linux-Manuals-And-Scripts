@@ -120,9 +120,9 @@ Steps:
 ### Flatpaks
 #### Don't forget to install flatseal to manage flatpak app privileges 
 
-'''bash                       
+```bash                       
 flatpak install com.discordapp.Discord -y && flatpak install com.github.tchx84.Flatseal -y  && flatpak install com.obsproject.Studio -y && flatpak install com.spotify.Client -y && flatpak install com.stremio.Stremio -y && flatpak install com.valvesoftware.Steam -y && flatpak install io.missioncenter.MissionCenter -y                   && flatpak install org.libreoffice.LibreOffice -y && flatpak install org.mozilla.Thunderbird -y && flatpak install org.signal.Signal -y && flatpak install org.telegram.desktop -y && flatpak install org.texstudio.TeXstudio -y                          
-'''
+```
 
 ### Snap
 
