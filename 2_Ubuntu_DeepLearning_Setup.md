@@ -155,6 +155,8 @@ To test if they are working on cuda run these inside the environment you install
 
 To monitor the nvidia gpu temperature and statistics run in a terminal:
 
+## Monitor GPU temps and stats
+
 ```bash
 $ watch nvidia-smi
 ```
