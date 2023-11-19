@@ -1,6 +1,6 @@
 # Setting up Ubuntu 22.04 for deep learning with Cuda 11.8
 
-## 0) Before installing:
+## 0) Preperation:
 ```bash
 $ sudo apt-get update
 $ sudo apt-get install linux-headers-$(uname -r)
