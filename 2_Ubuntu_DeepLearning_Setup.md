@@ -152,6 +152,13 @@ To test if they are working on cuda run these inside the environment you install
 ```
 
 `PS: Pytorch and tensorflow may have a lot of warnings but as long as there are no errors and the tests return True it's okay. `
+
+To monitor the nvidia gpu temperature and statistics run in a terminal:
+
+```bash
+$ watch nvidia-smi
+```
+
 ### Documentation used:
 Documentation for Nvidia driver installation in Linux:
 
