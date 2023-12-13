@@ -1,0 +1,11 @@
+[Unit]
+Description=Fan control script
+After=network.target
+
+[Service]
+ExecStart=/bin/bash /home/kostas/fan_control.sh
+User=kostas
+Group=kostas
+
+[Install]
+WantedBy=default.target
