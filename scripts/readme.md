@@ -2,6 +2,8 @@
 
 ## Steps:
 
+### 0) make the necessary changes in the files for example change user variable to your user name change home from `/home/kostas` to your own home etc 
+
 ### 1) enable coolbits with command:
 
 ```bash
