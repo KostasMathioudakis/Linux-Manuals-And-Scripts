@@ -90,6 +90,12 @@ In this file change the value of `GRUB_TIMEOUT` to `2`
     sudo vim /etc/systemd/system.conf
 ```
 
+Reload systemd:
+
+```bash
+    systemctl daemon-reload
+```
+
 Uncomment and change `DefaultTimeoutStopSec=60s` to `DefaultTimeoutStopSec=5s` (or 3)
 
 # 3/4
